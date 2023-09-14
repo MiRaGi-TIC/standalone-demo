@@ -14,9 +14,9 @@ public class Pantalla extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource());
-        fxmlLoader.setControllerFactory();
-        root = fxmlLoader.load();
+        //FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource('hola'));
+        //fxmlLoader.setControllerFactory('hola');
+        //root = fxmlLoader.load();
 
         primaryStage.setScene(new javafx.scene.Scene(root));
         primaryStage.show();
